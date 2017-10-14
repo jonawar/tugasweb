@@ -1,0 +1,85 @@
+body{
+    background-color: #eee;
+}
+thead {
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+tbody {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+input[type=text],input[type=email]{
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type=button]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: hidden;
+    text-transform: capitalize;
+    background-color: #00BFEA;
+    color: #fff;
+}
+.logo{
+    border-radius: 5px 5px 5px 5px;
+}
+.table{
+    width:100%;
+    padding: 5px
+}
+.table td{
+    border: thin solid #eee;
+    border-radius: 3px;
+}
+.table img{
+    border-radius: 3px;
+}
+.table div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.menu{
+    width:15%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 3px;
+    background-color: #E6EDE6;
+}
+.menu:hover{
+    width:15%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.menu a{
+    color: #00BFEA;
+    text-decoration: none;
+    display: block;
+    height:100%;
+    width:100%;
+    padding-top: 12px;
+    text-align: center;
+}
+.menu a:hover{
+    color: #8E918E;
+    text-decoration: none;
+    display: block;
+    height:100%;
+    width:100%;
+    padding-top: 12px;
+    text-align: center;
+    border-radius: 3px;
+}
+.title{
+    padding: 10px 10px 10px 0;
+    font-weight: bold;
+}
